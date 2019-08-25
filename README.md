@@ -24,6 +24,9 @@ This project is using custom CNN architecture. One can use other architectures l
 
 # Datasets:
 We are using Kitti Dataset. You can download it from here: http://www.cvlibs.net/datasets/kitti/. It is an old dataset and might not be the first choice of researchers. But, low computational power constraints us to go for this. One can use other big dataset like COCO, Berkley, ImageNet or Google.
+
+# Hyper parameter Tuning:
+Using Comet.ML for visualizing hyper parameters
  
 # Suggestions:
 1) Do not work directly with all the images in the dataset. Take a small sample of 100-500 images, work around the code and then start scaling it
