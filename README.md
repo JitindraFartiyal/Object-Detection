@@ -1,6 +1,9 @@
 # Update:  
-Addition of Dropout, Batch Normalization and other optimization techniques are in process. 
-You Tube link will be soon available.
+- Dropout layer, batch normalization layer is added. We added 2 more Conv layer (subject to behaviour of loss) Currently, we are using Adam optimizer. 
+- Code has been cleaned and became more dynamic. You can change the number of classes you want to classify, change the grid size,      number of bounding box from main function.
+- Added other logging facilities, like steps completed, checking previous epoch loss and current loss to compare.
+- Added Suggestion in README.md
+- You Tube link will be soon available.
 
 # Intro:
 With the advent of Alex Krizhevsky paper in 2012 for ImageNet challenge, the domain of Deep Learning has got much attention needed to it.
@@ -29,7 +32,9 @@ We are using Kitti Dataset. You can download it from here: http://www.cvlibs.net
 Using Comet.ML for visualizing hyper parameters
  
 # Suggestions:
-1) Do not work directly with all the images in the dataset. Take a small sample of 100-500 images, work around the code and then start scaling it
+1) Do not work directly with all the images in the dataset. Take a small sample of 100-250 images, work around the code and then start scaling it (check the dataset directory folder)
+2) Start classifying with 2 classes and then slowly increase the classes
+3) Start learning rate with 0.1 and reduce it by 10
 
 # Feedback:
 Feedback and suggestions are most welcomed !!
