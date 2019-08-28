@@ -1,4 +1,5 @@
 # Update:  
+- Added Dataset Directory structure for creating multiple folders with ranging from micro - mini - small - medium - large data. We have added here micro and mini folder only. You can easily switch folders from changing folder path from main function
 - Dropout layer, batch normalization layer is added. We added 2 more Conv layer (subject to behaviour of loss) Currently, we are using Adam optimizer. 
 - Code has been cleaned and became more dynamic. You can change the number of classes you want to classify, change the grid size,      number of bounding box from main function.
 - Added other logging facilities, like steps completed, checking previous epoch loss and current loss to compare.
