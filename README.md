@@ -22,20 +22,13 @@ We are using Google Colab for running our code. It provides decent GPU and TPU s
 We are using Python framework - Pytorch  for writing our code. Basic computational and data manipulation libraries are used like NumPy, SciPy, Pandas, Matplotlib, torchvision. It is not advised to go through all these libraries and then start coding. Best apporach is to start coding and understand it parallelly.
 
 # Architecture:
-This project is using custom CNN architecture. One can use other architectures like ResNet. But, for the exploratory reason and low GPUs power, we prefer to use smaller and simpler CNN architecture. We are also not using pre trained weights. Though, it is a good practice to do Transfer Learning, but for learning purpose we are working out the code from scratch.
-
-(With more updates to increase accuracy, we might add more layers of Batch Normalization.)
+We have used Resnet34 for our CNN Architecture
 
 # Datasets:
 We are using Kitti Dataset. You can download it from here: http://www.cvlibs.net/datasets/kitti/. It is an old dataset and might not be the first choice of researchers. But, low computational power constraints us to go for this. One can use other big dataset like COCO, Berkley, ImageNet or Google.
 
 # Hyper parameter Tuning:
-Using Comet.ML for visualizing hyper parameters
+Using Comet.ML for visualizing hyper parameters. We also have used Cylcial Learning Rate https://arxiv.org/abs/1506.01186
  
-# Suggestions:
-1) Do not work directly with all the images in the dataset. Take a small sample of 100-250 images, work around the code and then start scaling it (check the dataset directory folder)
-2) Start classifying with 2 classes and then slowly increase the classes
-3) Start learning rate with 0.1 and reduce it by 10
-
 # Feedback:
 Feedback and suggestions are most welcomed !!
